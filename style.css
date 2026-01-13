@@ -34,3 +34,33 @@ body {
         max-width: 100%;
     }
 }
+.text{
+    display: inline-block;
+    margin-top: 2rem;
+    color: blue;
+    text-decoration: none;
+}
+.text:hover{
+    color: #8717f0;
+    text-decoration: underline;
+}
+.step{
+    margin-top: 2rem;
+}
+.img-text-box img {
+    max-width: 28%;
+    min-width: 400px;
+    height: auto;
+    margin-left: 10px;
+}
+.feature-table{
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: 10px;
+    border: 1px solid #a8a8a8;
+    background-color: #f8fffc;
+}
+.feature-table th{
+    background-color: #dadada;
+    text-align: left;
+}
